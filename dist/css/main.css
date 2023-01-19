@@ -137,10 +137,9 @@ img {
   #home-b .stats-number {
     font-size: 2rem;
     font-weight: bold; }
-
-#home-b div {
-  padding: 3rem; }
-  #home-b div:nth-child(odd) {
-    background-color: #F4f4f4; }
-  #home-b div:nth-child(even) {
-    background-color: #CCC; }
+  #home-b .stats div {
+    padding: 3rem; }
+    #home-b .stats div:nth-child(odd) {
+      background-color: #F4f4f4; }
+    #home-b .stats div:nth-child(even) {
+      background-color: #CCC; }
