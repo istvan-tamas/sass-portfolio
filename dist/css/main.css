@@ -110,7 +110,7 @@ input[class^='btn-']:hover {
     width: 100%;
     height: 100%;
     transform: scale(2) translateX(-75%) translateY(-75%) rotate(-28deg);
-    transition: transform 3s cubic-bezier(0.2, 1 0.3, 1); }
+    transition: transform 3s cubic-bezier(0.2, 1, 0.3, 1); }
   .item:hover:after {
     transform: scale(2) translateX(-75%) translateY(0) rotate(-28deg); }
   .item:hover .item-image {
@@ -122,7 +122,7 @@ input[class^='btn-']:hover {
     height: auto;
     display: block;
     transform: translateZ(0);
-    transition: transform 750ms cubic-bezier(0.2, 1 0.3, 1); }
+    transition: transform 750ms cubic-bezier(0.2, 1, 0.3, 1); }
   .item-image:before {
     content: '';
     display: block;
@@ -144,9 +144,9 @@ input[class^='btn-']:hover {
     opacity: 0;
     text-align: center;
     z-index: 1;
-    color: #FFF;
+    color: #000;
     transform: translateY(-20%);
-    transition: opacity 500ms cubic-bezier(0.2, 1 0.3, 1), transform 500ms cubic-bezier(0.2, 1 0.3, 1);
+    transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1), transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
     transition-delay: 300ms; }
   .item-text-wrap {
     width: 100%;
